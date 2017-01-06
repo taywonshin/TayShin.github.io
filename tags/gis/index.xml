@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gis on Tay Shin</title>
+    <link>https://taywonshin.github.io/tags/gis/index.xml</link>
+    <description>Recent content in Gis on Tay Shin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Tay Shin</copyright>
+    <atom:link href="/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2. (GIS) Predicting Development Pressure: Case in Korea </title>
+      <link>https://taywonshin.github.io/project/GIS/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://taywonshin.github.io/project/GIS/</guid>
+      <description>
+
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Developed a model to measure the development pressure and are currently considering applying it in practice at LH Corp., which is , a Public enterprise.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#Keywords: GIS, econometrics, development pressure, dynamic programming, generalized linear model, L2 penalty
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;introduction-background&#34;&gt;Introduction/Background&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7QU9PaHJORnMzM2s&#34; alt=&#34;Intro&#34; /&gt;
+Which area should be developed? The National Assembly is still debating today. One of the most important tasks for LH Corporation, a Public enterprise, is to measure and predict development pressures. The company focuses especially on the development pressure according to the needs of the market, because if the company cannot figure it out, there will be cases where it is necessary to build an apartment or build a road. For this reason, it is very important to measure the development pressure.&lt;/p&gt;
+
+&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
+
+&lt;p&gt;Currently, there are few scientific tools used to accurately predict development pressure from National Agency in Korea. The first reason is lack of quality data. The data was computerized and archived for a long time, but it was so big and complicated that it was not kept neatly. Lastly, In Korea, we have never studied scientific development pressure by applying time and space at the same time.&lt;/p&gt;
+
+&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7QVpndGlfbkNjMVk&#34; alt=&#34;Solution1&#34; /&gt;
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7LWZoeW1KcDN5b3c&#34; alt=&#34;Solution2&#34; /&gt;
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7MFdpY1MtTzNJVG8&#34; alt=&#34;Solution3&#34; /&gt;
+We have developed a development pressure prediction model that has the concept of time and space by normalizing massive amounts of data. The model identifies the impacts between the layers through the hierarchical structure that the land has, and grasps the influence relations between the adjacent regions according to spatial conditions. Next, the model identifies how the above characteristics have changed over time.
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7b1BlcDU4amdwczg&#34; alt=&#34;Solution4&#34; /&gt;
+The definition of development pressure was defined as &amp;ldquo;the number of land movements&amp;rdquo;, &amp;ldquo;the number of transactions in land transactions&amp;rdquo;, and &amp;ldquo;the number of building permits&amp;rdquo; after consultation with practitioner at LH corporation. However, since each number is too large a concept is defined more precisely as seven in above. The independent variables used in the model were about 200 such as area and landmark.&lt;/p&gt;
+
+&lt;h1 id=&#34;result&#34;&gt;Result&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7YlJpcEFibzN3eEU&#34; alt=&#34;result1&#34; /&gt;
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7Wkc3SElRZTZ4eUE&#34; alt=&#34;result2&#34; /&gt;
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7Nk4yUGFCTDlrdlE&#34; alt=&#34;result3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of the approximately 200 variables, 168 are statistically significant. Predictability is also excellent. Currently, LH Corporation is considering to use it in practice.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

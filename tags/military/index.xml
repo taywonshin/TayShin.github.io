@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Military on Tay Shin</title>
+    <link>https://taywonshin.github.io/tags/military/index.xml</link>
+    <description>Recent content in Military on Tay Shin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Tay Shin</copyright>
+    <atom:link href="/tags/military/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>3. Estimating the Risk of Suicide Among korean soldiers</title>
+      <link>https://taywonshin.github.io/project/Suci/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://taywonshin.github.io/project/Suci/</guid>
+      <description>
+
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Developed a model which out-performed original model by 140% AUC-ROC chart basis. Currently, Korean Ministry of National Defense is considering to use it in practice.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#Keywords: Machine Learning, Suicide Risk, Military
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;introduction-background&#34;&gt;Introduction/Background&lt;/h1&gt;
+
+&lt;p&gt;In order to prevent soldiers who commit suicide in Korea, various programs are being implemented. According to the results of the psychological examination, if the psychological state of the soldier is determined to be dangerous, the military shall take action accordingly (ie. Send him home).&lt;/p&gt;
+
+&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
+
+&lt;p&gt;The problem is that many of the personnel who are not identified as dangerous by the psychological examination suicide. As Only about 60% of the suicides were found to be dangerous in psychological tests based on past data.&lt;/p&gt;
+
+&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7c2FjU1kzODczYlk&#34; alt=&#34;solution1&#34; /&gt;
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7QURmRENOdlJ6NVE&#34; alt=&#34;solution2&#34; /&gt;
+&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7RjZmZzd3YndDUEE&#34; alt=&#34;solution3&#34; /&gt;
+We used machine learning to create a predictive model. In addition to traditional research methods, relevant studies are being conducted in the United States to predict through machine learning. In this project, stochastic gradient boosted tree model was used by using psychological inspection data and basic information of soldiers.&lt;/p&gt;
+
+&lt;h1 id=&#34;result&#34;&gt;Result&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://drive.google.com/uc?export=&amp;amp;confirm=no_antivirus&amp;amp;id=0B2x5sIkwVHb7eDJ2ZzlKMV84RGM&#34; alt=&#34;result1&#34; /&gt;
+ The model out-performed original model by 140% AUC-ROC chart basis. Currently, Korean Ministry of National Defense is considering to use it in practice.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

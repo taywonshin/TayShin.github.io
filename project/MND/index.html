@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.18.1" />
+  <meta name="author" content="Tay Shin">
+  <meta name="description" content="Data Scientist">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://TaywonShin.github.io/index.xml" type="application/rss+xml" title="Tay Shin">
+  <link rel="feed" href="https://TaywonShin.github.io/index.xml" type="application/rss+xml" title="Tay Shin">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://taywonshin.github.io/project/MND/">
+
+  
+
+  <title>1. Predicting Dynamic Models of Quit Behavior, Ministry of National Defence, Korea  | Tay Shin</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Tay Shin</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#Resume">
+            
+            <span>Resume</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+    
+
+    <h1 itemprop="name">1. Predicting Dynamic Models of Quit Behavior, Ministry of National Defence, Korea </h1>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="abstract">Abstract</h1>
+
+<p>Created an econometrics model of the labor department of the Ministry of National Defence to achieve a quantitative effect of 0.2 billion dollars per year. Being in use since 2016.</p>
+
+<p>Keywords: military, econometrics, budget projection, dynamic programming, generalized linear model, L2 penalty</p>
+
+<h1 id="introduction-background">Introduction/Background</h1>
+
+<p><img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7dS1sV0VsVUNyYXM" alt="Intro" />
+In management of military manpower, military retention is a major subject. Policy makers are regulating its size by controlling the rate of retention and re-enlistment and those are closely related to personnel budget since military is a labor-intensive government organization. Most of the countries spent approximately 35% of budget of the total national defense for directly paying it to soldiers.</p>
+
+<h1 id="problem">Problem</h1>
+
+<p><img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7UXBXMlA2TkQ0ekE" alt="Problem" />
+One of the main reasons for shorts/overs was the formula for computing total national defence labor expense budget wasn&rsquo;t best formula. The formula uses average salary grade at F year in order to compute F+2 year budget. It also does not adequately reflect existing personnel when organizing F+2 year military personnel.</p>
+
+<h1 id="solution">Solution</h1>
+
+<p><img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7Z3FIV2s2WU1Tb2c" alt="Sol" />
+<img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7dGdXUnFYMVRyeTA" alt="Sol2" />
+<img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7OFNuRFF2OGIwTkE" alt="Sol3" />
+We build an econometrics model for predicting retention rate. The model was inspired by the basic context of decision process of whether the person will stay or leave the military. Past studies on related subject have showed that risk aversion is the basic behavior of public servant thus we build the model based on that assumption. The model first compares how much the person will earn if he stays in military and leaves military until retire point ‘T’. Then reflects personal characteristics of personal information such as grades, year of services, promotion candidate, commission background, number of childerns education level, and other 124 factors.</p>
+
+<p><img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7VEhGX1FNLVc3dGs" alt="Sol3" />
+<img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7a1RzZmU1b2tLems" alt="Sol4" />
+The proper data manipulation was made based on the Military personnel Law and data from Ministry of Labor. Past 50 years of the Military personnel Law was applied since some of the personal characteristics are closed related such as retirement policy, salary grade policy, promotion policy and etc. Moreover, it is natural to think that soldier will be hired the field where they have devoted in military. We have thus matched 50 occupation speciality to 11 different sectors and applied average salary based on sex and proper salary grades.</p>
+
+<p>Finally, we added random effect term to induce unbiased estimate of coefficient of the model. Each of the soldier has more than one chance to leave the military. In order to reflect those natural context, we have successfully added random effect in the formula.</p>
+
+<h1 id="result">Result</h1>
+
+<p><img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7eDVsc3EwM1dtXzA" alt="Sol5" />
+The result of model is out-standing. The classification accuracy of train set is 98.43% which was evaluated by performing 10 rolling origin cross validation and accuracy of ‘out-of-sample’ test set is 97.73%. Decision boundary was chosen at convention level of 0.5.</p>
+
+<h1 id="effect">Effect</h1>
+
+<p><img src="https://drive.google.com/uc?export=&amp;confirm=no_antivirus&amp;id=0B2x5sIkwVHb7R0lTd3lLSTVma1U" alt="Sol6" />
+The forecasting model was completed in 2016 and used from 2016 to measure the 2017 budget. Practitioners are expecting to achieve a quantitative effect of about 0.2 billion dollars per year. This labor cost prediction model project is the first in the Korean government ministries and can be extended to the civil servant area. Especially, the Ministry of Education will be able to see a great effect. It is also a project where three divisions have succeeded in cooperating with each other to break down each closed department.</p>
+
+<h1 id="details">Details</h1>
+
+<ul>
+<li>Error Metrics: MAPE (mean absolute percentage error), MAE (mean absolute error)</li>
+<li>Estimation Technique: IWLS algorithm, EM algorithm, Adaptive Gauss-Hermit Approximation, BLUP, BFGS</li>
+</ul>
+
+    </div>
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://taywonshin.github.io/project/GIS/"><span
+      aria-hidden="true">&larr;</span> 2. (GIS) Predicting Development Pressure: Case in Korea </a></li>
+    
+
+    
+  </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Tay Shin &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+
